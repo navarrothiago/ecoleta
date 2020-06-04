@@ -1,0 +1,33 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "description": "An Open Source Project developed to create a new way to bind people and companies that are keen on recycling waste materials. ",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navarrothiago/ecoleta.git"
+  },
+  "keywords": [
+    "ecoleta",
+    "recycle",
+    "waste",
+    "trash",
+    "material"
+  ],
+  "author": "Thiago Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navarrothiago/ecoleta/issues"
+  },
+  "homepage": "https://github.com/navarrothiago/ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
