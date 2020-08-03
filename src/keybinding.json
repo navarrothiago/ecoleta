@@ -1,0 +1,15 @@
+[
+    "vim.insertModeKeyBindingsNonRecursive": [
+    {
+        "before": [
+            "<Esc>"
+        ],
+        "after": [
+            "<Esc>"
+        ],
+        "commands": [
+            "workbench.action.files.save"
+        ]
+    }
+    ],
+]

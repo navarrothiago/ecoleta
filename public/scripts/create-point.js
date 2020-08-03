@@ -53,6 +53,8 @@ function handleSelectedItem(event){
     const itemLi = event.target
     const itemId = itemLi.dataset.id
 
+    console.log("Item Id: ", itemId)
+     
     itemLi.classList.toggle("selected")
 
     const alreadySelected = selectedItems.findIndex(item => item == itemId)
